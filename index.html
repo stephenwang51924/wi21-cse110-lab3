@@ -77,12 +77,38 @@
                 Your browser does not support the video tag.
             </video>
             <br>
+            <p>Canvas tag without JS</p>
             <canvas id="myCanvas" width="200" height="100"></canvas>
             <br>
+            <p>SVG tag</p>
             <svg width="400" height="180">
                 <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
                 style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
             </svg>
+            <br>
+            <p>Random Form</p>
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="appt">Select a time:</label>
+                <input type="time" id="appt" name="appt">
+                <label for="quantity">Favorite number between 1 and 5 inclusive:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+                <label for="homepage">Add your homepage:</label>
+                <input type="url" id="homepage" name="homepage"><br><br>
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile"><br><br>
+                <label for="favcolor">Select your favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </form>
         </aside>
 
         <footer>
