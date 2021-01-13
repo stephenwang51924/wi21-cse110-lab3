@@ -17,17 +17,23 @@
                 <p>Welcome to my User Page. I created this for my CSE 101 class.</p>
             </div>
         </header>
-
+        <br>
         <main>
             <h2 id="about_me"><strong>About Me</strong></h2>
             <p>I am a second-year student at UCSD majoring in Computer Science.</p>
+            <br>
             <h2 id="my_hobbies">My Hobbies</h2>
+            <picture>
+                <source media="(min-width:650px)" srcset="books.jpg">
+                <source media="(min-width:465px)" srcset="running.jpg">
+                <img src="playingvideogames.jpg" alt="Playing videogames" style="width:auto;">
+            </picture>
             <ul>
                 <li><i>Reading</i></li>
                 <li><i>Running</i></li>
                 <li><i>Playing videogames</i></li>
             </ul>
-
+            <br>
             <hr>
                 <h3 id="fantasy_tier_list"><strong>Fantasy Series Tier List</strong></h3>
                 <ol>
@@ -45,12 +51,14 @@
                 </nav>
             </hr>
         </main>
-
+        <br>
         <aside>
+            <h2>Random Stuff</h2>
             <p id="meme">Click this for the meme: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">( ͡° ͜ʖ ͡°)</a></p>
-            <br>
             <p>Some basic Git commands are: <code>git add</code>, <code>git commit</code>, <code>git push</code></p>
-
+            <div style="width:200px;overflow:auto">
+                <pre>This is a pre with a fixed width. It will use as much space as specified.</pre>
+            </div>
         </aside>
 
         <footer>
