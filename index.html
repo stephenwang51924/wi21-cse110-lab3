@@ -76,8 +76,14 @@
                 Your browser does not support the video tag.
             </video>
             <br>
-            <p>Canvas tag without JS</p>
-            <canvas id="myCanvas" width="200" height="100"></canvas>
+            <p>Canvas tag</p>
+            <canvas id="myCanvas">Your browser doesn't support the canvas tag</canvas>
+            <script>
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+                ctx.fillStyle = "#FF00FF";
+                ctx.fillRect(0, 0, 100, 100);
+            </script>
             <br>
             <p>SVG tag</p>
             <svg width="400" height="180">
@@ -139,7 +145,7 @@
             </form>
             <br>
 
-
+            <h3>Table</h3>
             <table>
                 <caption>Number of Books in Series</caption>
                 <colgroup>
