@@ -88,18 +88,21 @@
             <br>
             <h3>Random Form</h3>
             <form>
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
+                <fieldset>
+                    <legend>Personal Info:</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+                </fieldset>
                 <label for="appt">Select a time:</label>
                 <input type="time" id="appt" name="appt"><br><br>
                 <label for="quantity">Favorite number between 1 and 5 inclusive:</label>
                 <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="pwd">Password:</label>
-                <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
                 <label for="homepage">Add your website:</label>
                 <input type="url" id="homepage" name="homepage"><br><br>
                 <label for="myfile">Select a file:</label>
@@ -116,7 +119,7 @@
                         <option value="CSE 100">CSE 100</option>
                         <option value="CSE 110">CSE 110</option>
                     </optgroup>
-                </select>
+                </select><br><br>
                 <input type="submit" value="Submit">
                 <input type="reset">
             </form>
