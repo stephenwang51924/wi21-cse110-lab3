@@ -60,19 +60,6 @@
                 <summary>Secret Meme</summary>
                 <p id="meme">Click this for the meme: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">( ͡° ͜ʖ ͡°)</a></p>
             </details>
-            <br>
-            <button type="button" onclick="showContent()">Show Hidden Content!</button>
-            <template>
-                <h2>PogChamp!</h2>
-                <img src="pogchamp.png" width="300">
-            </template>
-            <script>
-            function showContent() {
-                var temp = document.getElementsByTagName("template")[0];
-                var clon = temp.content.cloneNode(true);
-                document.body.appendChild(clon);
-              }
-            </script>
             <p>Some basic Git commands are: <code>git add</code>, <code>git commit</code>, <code>git push</code></p>
             <div style="width:200px;overflow:auto">
                 <pre>This is a pre with a fixed width. It will use as much space as specified.</pre>
@@ -182,11 +169,25 @@
                     <td>Harry Potter</td>
                     <td>7</td>
                 </tr>
-              </table>
+            </table>
+            <br>
+            <button type="button" onclick="showContent()">Show Hidden Content!</button>
+            <template>
+                <h2>PogChamp!</h2>
+                <img src="pogchamp.png" width="300">
+            </template>
+            <script>
+            function showContent() {
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+              }
+            </script>
         </aside>
 
         <footer>
-            <p>This site was built using <a href="https://pages.github.com/">Github Pages</a></p>
+            <p>This site was built using <a href="https://pages.github.com/">Github Pages</a>.</p>
+            <p>I used <a href="https://www.w3schools.com/html/">w3schools</a> for information on how to use the HTML tags.</p>
         </footer>
     </body>
 </html>
