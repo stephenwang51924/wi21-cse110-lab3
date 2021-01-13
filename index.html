@@ -100,12 +100,23 @@
                 <input type="email" id="email" name="email"><br><br>
                 <label for="pwd">Password:</label>
                 <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
-                <label for="homepage">Add your homepage:</label>
+                <label for="homepage">Add your website:</label>
                 <input type="url" id="homepage" name="homepage"><br><br>
                 <label for="myfile">Select a file:</label>
                 <input type="file" id="myfile" name="myfile"><br><br>
                 <label for="favcolor">Select your favorite color:</label>
                 <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+                <label for="classes">Choose a class:</label>
+                <select  name="classes" id="classes">
+                    <optgroup label="Lower Division">
+                        <option value="CSE 11">CSE 11</option>
+                        <option value="CSE 30">CSE 30</option>
+                    </optgroup>
+                    <optgroup label="Upper Division">
+                        <option value="CSE 100">CSE 100</option>
+                        <option value="CSE 110">CSE 110</option>
+                    </optgroup>
+                </select>
                 <input type="submit" value="Submit">
                 <input type="reset">
             </form>
