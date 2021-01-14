@@ -81,12 +81,6 @@
             <br>
             <p>Canvas tag</p>
             <canvas id="myCanvas">Your browser doesn't support the canvas tag</canvas>
-            <script>
-                var canvas = document.getElementById("myCanvas");
-                var ctx = canvas.getContext("2d");
-                ctx.fillStyle = "#FF00FF";
-                ctx.fillRect(0, 0, 100, 100);
-            </script>
             <br>
             <p>SVG tag</p>
             <svg width="400" height="180">
@@ -176,13 +170,6 @@
                 <h2>PogChamp!</h2>
                 <img src="pogchamp.png" width="300">
             </template>
-            <script>
-            function showContent() {
-                var temp = document.getElementsByTagName("template")[0];
-                var clon = temp.content.cloneNode(true);
-                document.body.appendChild(clon);
-              }
-            </script>
         </aside>
 
         <footer>
