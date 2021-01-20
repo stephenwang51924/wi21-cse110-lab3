@@ -2,6 +2,10 @@
     background-color: #FF1493
 }
 
+.intro:hover {
+    background-color: blue
+}
+
 #about_me {
     color: rgb(255, 165, 0)
 }
@@ -20,4 +24,39 @@
 
 #random_stuff {
     color: hsla(120, 100%, 25%, 0.3)
+}
+
+* {
+    background-color:bisque
+}
+
+p {
+    color:cadetblue
+}
+
+a[href] {
+    color: red
+}
+
+#book1, #book2 {
+    color:slateblue
+}
+
+footer p {
+    color: yellowgreen
+}
+
+p.tag {
+    color:turquoise
+}
+
+div>p {
+    color:tomato
+}
+
+h3+p{
+    color:brown
+}
+nav~h3 {
+    color:chocolate
 }
