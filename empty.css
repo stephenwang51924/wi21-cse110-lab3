@@ -8,7 +8,10 @@
 }
 
 #about_me {
-    color: rgb(255, 165, 0)
+    color: rgb(255, 165, 0);
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 2em;
+    position: static;
 }
 
 #my_hobbies {
@@ -32,7 +35,8 @@
 }
 
 p {
-    color:cadetblue
+    color:cadetblue;
+    font-size: 1.25em;
 }
 
 a[href] {
@@ -77,4 +81,28 @@ nav~h3 {
     margin: 30px 25px 30px 5px;
     border: 10px solid black;
     padding: 25px 25px 25px 25px;
+}
+
+h1 {
+    font-family: 'Hachi Maru Pop', cursive;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: underline;
+}
+
+#ghost {
+    display: none;
+}
+
+#max {
+    max-width: 25%;
+}
+
+#current {
+    min-width: 200%;
+
+}
+
+a:active {
+    color:blue;
 }

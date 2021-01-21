@@ -4,6 +4,8 @@
         <title>Stephen Wang's User Page</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="empty.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
         <style>
             .intro {
                 width: 300px;
@@ -19,17 +21,7 @@
                 margin-bottom: 50px;
                 margin-left: 500px;
                 margin-right: 500px;
-            }
-            #about_me {
-                font-size: 2em;
-            }
-            p {
-                font-size: 1.25em;
-            }
-            h1 {
-                text-align: center;
-                font-size: 3em;
-                text-decoration: underline;
+                position: relative;
             }
         </style>
     </head>
@@ -75,7 +67,7 @@
                     <li id="book2"><em>First Law/Age of Madness</em></li>
                     <li id="book3"><em>Harry Potter</em></li>
                 </ol>
-                <p>Here are some links if you are interested in any of the series that I listed:</p>
+                <p id="max">Here are some links if you are interested in any of the series that I listed:</p>
                 <nav>
                     <ul>
                         <li><a href="https://awoiaf.westeros.org/index.php/Main_Page">A Song of Ice and Fire Wiki</a></li>
@@ -84,7 +76,7 @@
                     </ul>
                 </nav>
                 <h3>Current Book</h3>
-                <p>Currently, I am reading The Eye of the World, which is the first book in the Wheel of Time series.</p>
+                <p id="current">Currently, I am reading The Eye of the World, which is the first book in the Wheel of Time series.</p>
         </main>
         <br>
         <aside>
@@ -208,6 +200,7 @@
         <footer>
             <p>This site was built using <a href="https://pages.github.com/">Github Pages</a>.</p>
             <p>I used <a href="https://www.w3schools.com/html/">w3schools</a> for information on how to use the HTML tags.</p>
+            <p id="ghost">You can't see me lol</p>
         </footer>
     </body>
 </html>
