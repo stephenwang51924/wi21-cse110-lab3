@@ -11,8 +11,14 @@
                 border-color: green;
                 border-width: 30px;
                 border-radius: 25px;
-                padding: 50px;
-                margin: auto;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                padding-left: 50px;
+                padding-right: 50px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                margin-left: 500px;
+                margin-right: 500px;
             }
             #about_me {
                 font-size: 2em;
@@ -36,6 +42,7 @@
                     <img src="ayy.jpg" width=300>
                     <figcaption id="picture1">Fig.1 - Stephen Wang in his natural habitat.</figcaption>
                 </figure>
+                <br>
                 <p>Welcome to my User Page. I created this for my <b>CSE 101 class</b>.</p>
             </div>
         </header>
@@ -45,14 +52,16 @@
             <p>I am a second-year student at UCSD majoring in <strong>Computer Science</strong>.</p>
             <br>
             <h2 id="my_hobbies">My Hobbies</h2>
-            <figure>
-                <picture>
-                    <source media="(min-width:800px)" srcset="books.jpg">
-                    <source media="(min-width:300px)" srcset="running.jpg">
-                    <img src="playingvideogames.jpg" alt="Playing videogames" width=300>
-                </picture>
-                <figcaption>Fig2. - Resize the browser window to load different images.</figcaption>
-            </figure>
+            <div>
+                <figure>
+                    <picture>
+                        <source media="(min-width:800px)" srcset="books.jpg">
+                        <source media="(min-width:300px)" srcset="running.jpg">
+                        <img src="playingvideogames.jpg" alt="Playing videogames" width=300 id="figure2">
+                    </picture>
+                    <figcaption>Fig2. - Resize the browser window to load different images.</figcaption>
+                </figure>
+            </div>  
             <ul>
                 <li><i>Reading</i></li>
                 <li><i>Running</i></li>

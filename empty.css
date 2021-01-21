@@ -69,7 +69,12 @@ nav~h3 {
 
 #figure1 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 300px;
+}
+
+#figure2 {
+    margin: 30px 25px 30px 5px;
+    border: 10px solid black;
+    padding: 25px 25px 25px 25px;
 }
