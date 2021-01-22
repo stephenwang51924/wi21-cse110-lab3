@@ -36,7 +36,7 @@
 
 p {
     color:cadetblue;
-    font-size: 1.25em;
+    font-size: 2vw;
 }
 
 a[href] {
@@ -74,7 +74,7 @@ nav~h3 {
 #figure1 {
     display: block;
     margin: auto;
-    height: 300px;
+    height: 20pc;
 }
 
 #figure2 {
@@ -86,7 +86,7 @@ nav~h3 {
 h1 {
     font-family: 'Hachi Maru Pop', cursive;
     text-align: center;
-    font-size: 3em;
+    font-size: 30pt;
     text-decoration: underline;
 }
 
@@ -106,3 +106,41 @@ h1 {
 a:active {
     color:blue;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.grid-container {
+    display: grid;
+    row-gap: 40px;
+    column-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 5vw);
+    background-color:cornflowerblue;
+    padding: 50px;
+    border: solid black;
+    border-width: 5px;
+}
+
+.grid-container > div {
+    background-color:yellow;
+    text-align: center;
+    font-size: 30px;
+    border: solid black;
+    border-width: 5px;
+    align-self: center;
+}
+
+.item1 {
+    grid-column: 1 / span 3;
+}
+
+@media screen and (max-width: 1200px) {
+    * {
+      background-color: lightgreen;
+    }
+  }
