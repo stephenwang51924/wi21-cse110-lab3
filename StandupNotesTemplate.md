@@ -1,6 +1,6 @@
 # **Standup Notes Template**
 
-### **Name: **
+### **Name:**
 
 ### **What did I work on yesterday?**
 
